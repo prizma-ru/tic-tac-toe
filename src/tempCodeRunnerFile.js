@@ -1,0 +1,1 @@
+this.matrix[rowIndex][columnIndex]
