@@ -64,12 +64,8 @@ class TicTacToe {
     }
 
     noMoreTurns() {
-        if (this.turns === 9){
-            return true;
-        }
-        else{
-            return false;
-        }
+        return this.turns === 9 ? true : false;
+
     }
 
     isDraw() {
